@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Cards Store</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">CardStore</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('base') }}">Home</a>
+            <li><a href="{{ url_for('products') }}">Products</a>
+            <li><a href="{{ url_for('about') }}">About</a>
+            <li><a href="{{ url_for('contacts') }}">Contacts</a>
+            <li><a href="{{ url_for('login') }}">Login</a>
+            <li><a href="{{ url_for('signup') }}">Sign-Up</a>
+        </ul>
+    </nav>
+    <section id="products" class="products-section">
+    </section>
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="card">
+            <img src="static/img/blackcard.jpg" alt="Card Image 1">
+            <h3>Blac metal card</h3>
+            <p>Black metal rewards card</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="static/img/redcard.jpg" alt="Card Image 2">
+            <h3>Red metal card</h3>
+            <p>Red metal rewards card</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="static/img/goldencard.jpg" alt="Card Image 3">
+            <h3>Golden metal card</h3>
+            <p>Golden metal rewards card</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Cards Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

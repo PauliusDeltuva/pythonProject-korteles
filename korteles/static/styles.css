@@ -1,0 +1,285 @@
+body {
+    background: url('img/blackcard.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background:grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+
+
+     background: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) .7em,
+        rgba(100, 100, 100, 1) 1.25em
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    color:black ;
+    text-shadow: 1px 1px 2px rgba(2, 10, 2, 2);
+
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-detail {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+
+}
+
+
+}
+
+.card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.card-detail {
+    text-align: center;
+}
+
+.card img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+button, a {
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) .7em,
+        rgba(100, 100, 100, 1) 1.25em
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button, a:hover {
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) .7em,
+        rgba(100, 100, 100, 1) 1.25em
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    box-shadow: 0 0 20px black;
+    color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 1rem 2rem;
+}
+
+.navbar .logo {
+     background: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) .7em,
+        rgba(100, 100, 100, 1) 1.25em
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 1rem;
+}
+
+.navbar .nav-links a {
+    color:black;
+    text-decoration: none;
+    font-size: 1rem;
+
+}
+
+.header-section {
+    color: black;
+    padding: 2rem;
+    text-align: center;
+     background: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) .7em,
+        rgba(100, 100, 100, 1) 1.25em
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:black ;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.header-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-section p {
+    font-size: 1.2rem;
+}
+
+.products-section, .about-section, .contacts-section {
+    padding: 2rem;
+    text-align: center;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 1) 0,
+        rgba(255, 255, 255, 1) .7em,
+        rgba(100, 100, 100, 1) 1.25em
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.products-section h2, .about-section h2, .contacts-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.products-section .card {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: left;
+    width: 300px;
+}
+
+.products-section .card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.products-section .card h3 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.products-section .card p {
+    font-size: 1rem;
+}
+
+.footer {
+    color: silver;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.auth-section {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    background: linear-gradient(145deg, #3a3a3a, #1a1a1a);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    color: #eee;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.auth-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #e6e600;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #eee;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #eee;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.7);
+}
+
+.auth-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #666;
+    color: #eee;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #e6e600;
+    color: #333;
+}
+
+
+
+
+

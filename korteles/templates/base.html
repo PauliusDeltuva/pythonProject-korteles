@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Store</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">CardStore</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('base') }}">Home</a>
+            <li><a href="{{ url_for('products') }}">Products</a>
+            <li><a href="{{ url_for('about') }}">About</a>
+            <li><a href="{{ url_for('contacts') }}">Contacts</a>
+            <li><a href="{{ url_for('login') }}">Login</a>
+            <li><a href="{{ url_for('signup') }}">Sign-Up</a>
+        </ul>
+    </nav>
+    <header id="home" class="header-section">
+        <h1>Welcome to metal plated cards store</h1>
+        <p>Discover unique and beautiful cards for all occasions</p>
+    </header>
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="card">
+            <img src="static/img/blackcard.jpg" alt="Card Image 1">
+            <h3>Blac metal card</h3>
+            <p>Black metal rewards card</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="static/img/redcard.jpg" alt="Card Image 2">
+            <h3>Red metal card</h3>
+            <p>Red metal rewards card</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="card">
+            <img src="static/img/goldencard.jpg" alt="Card Image 3">
+            <h3>Golden metal card</h3>
+            <p>Golden metal rewards card</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Renowned for our distinctive metal, plastic, wood, and letterpress business cards, we take pride in offering a complimentary, personalized design service. Seamlessly blending avant-garde design with traditional printing techniques, we actively contribute to preserving crafts that risk fading in our automated world. Despite our global reach, delivering to 129 countries, our commitment to community support remains steadfast. We prioritize local employment and proudly manufacture all our products here in the United Kingdom.e.</p>
+    </section>
+    <section id="contacts" class="contacts-section">
+        <h2>Contact Us</h2>
+        <p>Address
+Sammelkartenmarkt GmbH & Co. KG
+Nordkapstr. 4
+10439 Berlin
+Telephone
++49 30 47375577 (Not for customer support)
+Email
+Registration office
+Amtsgericht Berlin-Charlottenburg
+Registration number
+HR A 39760
+Sales tax identification number
+DE256122758</p>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Cards Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>

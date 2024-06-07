@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Cards Store</title>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+<nav class="navbar">
+        <div class="logo">CardStore</div>
+        <ul class="nav-links">
+            <li><a href="{{ url_for('base') }}">Home</a>
+            <li><a href="{{ url_for('products') }}">Products</a>
+            <li><a href="{{ url_for('about') }}">About</a>
+            <li><a href="{{ url_for('contacts') }}">Contacts</a>
+            <li><a href="{{ url_for('login') }}">Login</a>
+            <li><a href="{{ url_for('signup') }}">Sign-Up</a>
+        </ul>
+    </nav>
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Renowned for our distinctive metal, plastic, wood, and letterpress business cards, we take pride in offering a complimentary, personalized design service. Seamlessly blending avant-garde design with traditional printing techniques, we actively contribute to preserving crafts that risk fading in our automated world. Despite our global reach, delivering to 129 countries, our commitment to community support remains steadfast. We prioritize local employment and proudly manufacture all our products here in the United Kingdom.</p>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Cards Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
